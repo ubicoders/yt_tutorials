@@ -1,24 +1,27 @@
-# Ubicoders Virtual Robot - Multirotor
+# Youtube Tutotrials
+All tutorial codes used in the youtube channel. For the details, please checkout the channel:
+[Ubicoders Youtube Channel](https://www.youtube.com/channel/UC2RxqAYQt-LBs3paWv78rLA)
 
-The virtual robot is here [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
-![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/vrobot_mr.png "vr")
+Happy coding!
 
-
+## Install
 
 Requirements:
-- Python 3
-
-## Once you have Python 3
+- Python 
 
 ```
 pip install ubicoders-vrobots matplotlib
 ```
 
 ## Turn on Virtual Robots Bridge
+
 ```
 python vr_bridge.py
 ```
 
+
+The virtual robot is here [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
+![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/vrobot_mr.png "vr")
 
 ## Axis Convention
 x front, y right, z down.
