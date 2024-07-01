@@ -3,7 +3,7 @@
 All tutorial codes used in the youtube channel. For the details, please checkout the channel:
 [Ubicoders Youtube Channel](https://www.youtube.com/channel/UC2RxqAYQt-LBs3paWv78rLA)
 
-![]()
+![](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/ubicoders_channel.png)
 
 Happy coding!
 
@@ -17,7 +17,6 @@ pip install ubicoders-vrobots matplotlib
 ```
 
 ## Turn on Virtual Robots Bridge
-
 ```
 python vr_bridge.py
 ```
