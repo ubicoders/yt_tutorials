@@ -3,7 +3,7 @@
 All tutorial codes presented in the youtube channel:
 [Ubicoders Youtube Channel](https://www.youtube.com/channel/UC2RxqAYQt-LBs3paWv78rLA)
 
-![](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/ubicoders_yt.png)
+![](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/youtube_bg.png)
 
 ## Install Virtual Robot Python
 
