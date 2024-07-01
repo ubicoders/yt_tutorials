@@ -1,6 +1,6 @@
 #  [Ubicoders Youtube Tutorials](https://github.com/ubicoders/yt_tutorials/)
 
-All tutorial codes presented in the youtube channel:
+Tutorials presented in the youtube channel:
 [Ubicoders Youtube Channel](https://www.youtube.com/channel/UC2RxqAYQt-LBs3paWv78rLA)
 
 ![](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/banner.png)
