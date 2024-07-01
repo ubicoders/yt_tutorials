@@ -1,13 +1,16 @@
-# Youtube Tutotrials
+#  [Ubicoders Youtube Tutotrials](https://github.com/ubicoders/yt_tutorials/)
+
 All tutorial codes used in the youtube channel. For the details, please checkout the channel:
 [Ubicoders Youtube Channel](https://www.youtube.com/channel/UC2RxqAYQt-LBs3paWv78rLA)
+
+![]()
 
 Happy coding!
 
 ## Install
 
 Requirements:
-- Python 
+- Python 3.9+
 
 ```
 pip install ubicoders-vrobots matplotlib
