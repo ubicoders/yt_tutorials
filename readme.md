@@ -5,7 +5,7 @@ All tutorial codes presented in the youtube channel:
 
 ![](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/banner.png)
 
-## Install Virtual Robot Python
+## 🚀 Install Virtual Robot Python
 
 Requirements:
 - Python 3.9+
@@ -14,7 +14,7 @@ Requirements:
 pip install ubicoders-vrobots ipython numpy matplotlib
 ```
 
-## Getting Started
+## ✈️ Getting Started
 
 Follow the modeuls! For instance, [module 1](https://github.com/ubicoders/yt_tutorials/blob/main/module1/height_control.ipynb)
 
@@ -22,10 +22,10 @@ Follow the modeuls! For instance, [module 1](https://github.com/ubicoders/yt_tut
 The virtual robot is here [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
 ![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/vrobot_mr.png "vr")
 
-## Virtual Robots Axis Convention
+## 🚥 Virtual Robots Axis Convention
 x front, y right, z down.
 
-## Units - States & sensors
+## 🍨 Units - States & sensors
 
 ### actuators - pwm 
 Integer representing micro seconds. The range between 1100 to 2000 microseconds. This range is a typical operation range of ESC of the actual drones.
