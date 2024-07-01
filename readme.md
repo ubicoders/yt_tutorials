@@ -1,36 +1,29 @@
 #  [Ubicoders Youtube Tutotrials](https://github.com/ubicoders/yt_tutorials/)
 
-All tutorial codes used in the youtube channel. For the details, please checkout the channel:
+All tutorial codes presented in the youtube channel:
 [Ubicoders Youtube Channel](https://www.youtube.com/channel/UC2RxqAYQt-LBs3paWv78rLA)
 
 ![](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/ubicoders_yt.png)
 
-Happy coding!
-
-## Install
+## Install Virtual Robot Python
 
 Requirements:
 - Python 3.9+
 
 ```
-pip install ubicoders-vrobots matplotlib
-```
-
-## Turn on Virtual Robots Bridge
-```
-python vr_bridge.py
+pip install ubicoders-vrobots ipython numpy matplotlib
 ```
 
 
 The virtual robot is here [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
 ![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/vrobot_mr.png "vr")
 
-## Axis Convention
+## Virtual Robots Axis Convention
 x front, y right, z down.
 
-## Units
+## Units - States & sensors
 
-### actuators.pwm 
+### actuators - pwm 
 Integer representing micro seconds. The range between 1100 to 2000 microseconds. This range is a typical operation range of ESC of the actual drones.
 
 ### states - accelerometer
