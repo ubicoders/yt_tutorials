@@ -18,6 +18,10 @@ pip install ubicoders-vrobots ipython numpy matplotlib
 The virtual robot is here [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
 ![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/vrobot_mr.png "vr")
 
+## Getting Started
+
+Follow the modeuls! For instance, [module 1](https://github.com/ubicoders/yt_tutorials/blob/main/module1/height_control.ipynb)
+
 ## Virtual Robots Axis Convention
 x front, y right, z down.
 
