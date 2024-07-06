@@ -44,7 +44,7 @@ ros2 run ros2vr_bridge run_bridge
 ```
 ### 4. Run the launch script
 ```
-ros2 launch ros2vr_swarm swarm.launch.py # this will control all 5 drones in the built-in mission.
+ros2 launch ros2vr_swarm swarm.launch.py # this will control all drones in the built-in mission.
 ```
 
 
