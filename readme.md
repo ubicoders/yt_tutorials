@@ -14,13 +14,40 @@ Requirements:
 pip install ubicoders-vrobots ipython numpy matplotlib
 ```
 
-## ✈️ Getting Started
+The virtual robot is here: [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
 
-Follow the modeuls! For instance, [module 1](https://github.com/ubicoders/yt_tutorials/blob/main/module1/height_control.ipynb)
-
-
-The virtual robot is here [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
 ![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/vrobot_mr.png "vr")
+
+## ✈️ 1. Getting Started
+
+To quickly run the demo script, follow the modeuls! For instance, [module 1](https://github.com/ubicoders/yt_tutorials/blob/main/module1/height_control.ipynb) That's it! Very simple right?
+
+
+
+## 🐧 2. For ROS2
+
+In your ROS2 environment, make sure to install the above pip packages.
+
+### 1. Under the workspace/src clone the following repos:
+```
+git clone https://github.com/ubicoders/ros2vr_interface
+git clone https://github.com/ubicoders/ros2vr_bridge
+git clone https://github.com/ubicoders/ros2vr_swarm
+```
+### 2. Then, build it at your workspace/
+```
+colcon build --symlink-install
+```
+### 3. Run the virtual robot bridge
+```
+ros2 run ros2vr_bridge run_bridge
+```
+### 4. Run the launch script
+```
+ros2 launch ros2vr_swarm swarm.launch.py # this will control all 5 drones in the built-in mission.
+```
+
+
 
 ## 🚥 Virtual Robots Axis Convention
 x front, y right, z down.
