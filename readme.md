@@ -26,6 +26,20 @@ To quickly run the demo script, follow the modeuls! For instance, [module 1](htt
 
 ## 🐧 2. For ROS2
 
+docker-compose.yml to use ubicoders ROS2 Humble image.
+```
+version: "3.8"
+
+services: 
+  deep_vio:
+      container_name: yt_t2
+      image: ubicoders/ros:base #ros2 humble
+      network_mode: host
+      privileged: true
+      stdin_open: true # docker run -i
+      tty: true        # docker run -t
+```
+
 In your ROS2 environment, make sure to install the above pip packages.
 
 ### 1. Under the workspace/src clone the following repos:
