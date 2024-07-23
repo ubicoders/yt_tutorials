@@ -2,9 +2,6 @@
 
 #  [Ubicoders Youtube Tutorials](https://github.com/ubicoders/yt_tutorials/)
 
-Tutorials presented in the youtube channel: [Ubicoders Youtube Channel](https://www.youtube.com/channel/UC2RxqAYQt-LBs3paWv78rLA)
- This repository is prepared for specific youtube video.
-
 ## 🚀 Install Virtual Robot Python
 ![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/vrobot_mr.png "vr")
 The virtual robot is here: [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
