@@ -33,9 +33,9 @@ docker-compose.yml to use ubicoders ROS2 Humble image.
 version: "3.8"
 
 services: 
-  vrobots_ros:
-      container_name: yt_t2
-      image: ubicoders/ros:base #ros2 humble
+  ubicoders_yt:
+      container_name: ubicoders_yt_cnt
+      image: ubicoders/ros:base            #ros2 humble
       network_mode: host
       privileged: true
       stdin_open: true # docker run -i
