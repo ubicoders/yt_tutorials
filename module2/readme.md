@@ -1,63 +1,56 @@
 ![](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/banner.png)
 
-#  [Ubicoders Youtube Tutorials](https://github.com/ubicoders/yt_tutorials/)
+#  [Ubicoders Youtube Tutorials - Helicopter](https://github.com/ubicoders/yt_tutorials/)
+![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/module2/image.png "vr")
 
-## 🚀 Install Virtual Robot Python
-![Virtual Robots](https://raw.githubusercontent.com/ubicoders/yt_tutorials/main/images/vrobot_mr.png "vr")
 The virtual robot is here: [Virtual Multitor](https://www.ubicoders.com/virtualrobots/) 
 
 
+## 🐧 1. Getting Started: ROS2 Using Docker
 
-## ✈️ 1. Getting Started
-
-
-Requirements:
-- Python 3.9+
-
-```
-pip install ubicoders-vrobots ipython numpy matplotlib
-```
-
-
-To quickly run the demo script, follow the modeuls! For instance, [module 1](https://github.com/ubicoders/yt_tutorials/blob/main/module1/height_control.ipynb) That's it! Very simple right?
-
-
-
-## 🐧 2. For ROS2
+### 🚀🚀🚀
+### IMPORTANT ASSUMPTION: Docker on WSL2, Ubuntu, or Mac
+### 🚀🚀🚀
 
 docker-compose.yml to use ubicoders ROS2 Humble image.
 ```
 version: "3.8"
 
 services: 
-  vrobots_ros:
-      container_name: yt_t2
-      image: ubicoders/ros:base #ros2 humble
+  ubicoders_yt:
+      container_name: ubicoders_yt_cnt
+      image: ubicoders/ros:base            #ros2 humble
       network_mode: host
       privileged: true
       stdin_open: true # docker run -i
       tty: true        # docker run -t
 ```
 
-In your ROS2 environment, make sure to install the above pip packages.
 
-### 1. Under the workspace/src clone the following repos:
+## 🚀🚀🚀 Requirements:
+In the ROS2 environment (inside the docker container), make sure to install the below pip packages.
+
+```
+pip install ubicoders-vrobots ipython numpy matplotlib
+```
+
+### 👉 1.1 Under the workspace/src clone the following repos:
 ```
 git clone https://github.com/ubicoders/ros2vr_interface
 git clone https://github.com/ubicoders/ros2vr_bridge
-git clone https://github.com/ubicoders/ros2vr_swarm
+git clone https://github.com/ubicoders/ros2vr_helicopter
 ```
-### 2. Then, build it at your workspace/
+### 👉 1.2. Then, build it at your workspace/
 ```
 colcon build --symlink-install
 ```
-### 3. Run the virtual robot bridge
+### 👉 1.3. Run the virtual robot bridge
 ```
 ros2 run ros2vr_bridge run_bridge
 ```
-### 4. Run the launch script
+### 👉 1.4. Run the helicopter module
 ```
-ros2 launch ros2vr_swarm swarm.launch.py # this will control all drones in the built-in mission.
+ros2 run ros2vr_helicopter heli_node 
 ```
 
 
