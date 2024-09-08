@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+
+  ubi_ros2_dev:
+    container_name: ros2_dev_cnt
+    # build: .
+    image: ubicoders/ros2:humble_px4
+    network_mode: host
+    privileged: true
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    command: ["/bin/bash"]
+    environment:
+      - DISPLAY
+      - QT_X11_NO_MITSHM=1 
+    volumes:
+      - "/tmp/.X11-unix/:/tmp/.X11-unix/:rw"
+      - "$HOME/.Xauthority:/root/.Xauthority:rw"
+      - "/dev/:/dev/"
