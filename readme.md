@@ -18,7 +18,7 @@ Requirements:
 - Python 3.9+
 
 ```
-pip install ubicoders-vrobots ipython numpy matplotlib
+pip install ubicoders-vrobots ipython numpy matplotlib psutil
 ```
 
 
